@@ -1,4 +1,4 @@
-# Example Next.js, Tailwind CDD, and MDX repository
+# Example Next.js, Tailwind CSS, and MDX repository
 
 # Introduction
 
