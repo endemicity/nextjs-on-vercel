@@ -1,0 +1,22 @@
+@tailwind base;
+
+@layer base {
+  h1 {
+    @apply font-serif text-2xl font-extrabold uppercase my-4 lg:my-8;
+  }
+  h2 {
+    @apply font-serif text-xl font-bold my-4 lg:my-8;
+  }
+  h3 {
+    @apply font-serif text-lg my-4 lg:my-8;
+  }
+  a {
+    @apply text-blue-600 underline;
+  }
+  body {
+    @apply font-sans subpixel-antialiased;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;

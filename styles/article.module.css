@@ -1,0 +1,47 @@
+.article {
+  @apply my-4 mx-4 md:mx-16 lg:my-8 lg:mx-32 xl:mx-56;
+}
+
+.cover {
+  @apply flex h-screen bg-cover bg-gray-700;
+}
+
+.heading {
+  @apply m-auto bg-black bg-opacity-70 p-4 px-8;
+}
+
+.title {
+  @apply text-center text-white text-3xl font-bold uppercase;
+}
+
+.description {
+  @apply text-center font-serif italic text-white text-2xl;
+}
+
+.posted {
+  @apply text-center text-white font-thin pt-4;
+}
+
+.theme {
+  @apply font-mono mx-1;
+}
+
+.arrow {
+  @apply text-blue-400 text-2xl text-center pt-2;
+}
+
+.image {
+
+}
+
+.imagefull {
+  @apply mx-0 text-center;
+}
+
+.imagecontainer {
+  @apply md:mx-auto text-center;
+}
+
+.footer {
+  @apply text-center text-lg m-8;
+}

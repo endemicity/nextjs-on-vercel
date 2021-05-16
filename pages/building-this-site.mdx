@@ -1,0 +1,21 @@
+import Article from '../components/article'
+import Date from "../components/date"
+
+export const meta = {
+  title: 'A Title',
+  description: 'A summary of the article',
+  date: '2021-05-15',
+  theme: 'Coding',
+  cover: '/cover.jpg',
+}
+
+export default ({ children }) => <Article meta={meta}>{children}</Article>;
+
+# A Title
+
+## A section
+
+Some MDX rendered text with an inline custom date component: <Date dateString={meta.date} />
+
+
+

@@ -1,0 +1,15 @@
+.profile {
+  @apply text-center mt-4;
+}
+
+.image {
+  @apply rounded-full;
+}
+
+.title {
+  @apply font-serif text-2xl;
+}
+
+.silly {
+  @apply tracking-wider italic;
+}
