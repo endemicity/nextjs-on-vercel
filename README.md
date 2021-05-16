@@ -1,4 +1,4 @@
-# Example Next.js, Tailwind CDD, and MDX repository
+# Example Next.js, Tailwind CSS, and MDX repository
 
 This is just an example repository for putting [Next.js](https://nextjs.org/learn), [Tailwind CSS](https://tailwindcss.com/docs), and [MDX](https://mdxjs.com/) together.
 
